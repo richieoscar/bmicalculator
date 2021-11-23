@@ -17,6 +17,12 @@ const kSliderWhite = Colors.white;
 //Text style constants
 const KLabelTextStyle = TextStyle(fontSize: 18, color: kWhite);
 const KNumberTextStyle = TextStyle(fontSize: 50.0, fontWeight: FontWeight.w900);
+const kResultTextStyle = TextStyle(fontSize: 30.0, fontWeight: FontWeight.w700);
+const kGrenTextStyle =
+    TextStyle(fontSize: 20, color: Colors.green, fontWeight: FontWeight.w500);
+const kResultSuggestionStyle = TextStyle(
+  fontSize: 18,
+);
 
 //button constants
 const KRoundButtonColor = Color(0xFF4C45FE);
