@@ -268,7 +268,11 @@ class _InputPageState extends State<InputPage> {
                       builder: (_) => ResultPage(
                           bmi: bmi,
                           result: result,
-                          interpration: interpretation)));
+                          interpration: interpretation,
+                          height: height.toString(),
+                          age: age.toString(),
+                          weight: weight.toString(),
+                          ),),);
             },
           ),
         ],

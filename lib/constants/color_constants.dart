@@ -24,5 +24,7 @@ const kResultSuggestionStyle = TextStyle(
   fontSize: 18,
 );
 
+const kBmiTextStyle = TextStyle(fontSize: 80, fontWeight: FontWeight.bold);
+
 //button constants
 const KRoundButtonColor = Color(0xFF4C45FE);
